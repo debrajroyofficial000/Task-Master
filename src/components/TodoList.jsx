@@ -34,6 +34,7 @@ function TodoList({
                 >
                   {task.text}
                 </li>
+
                 <button onClick={() => CompleteTodo(task.id)}>Done</button>
                 <button onClick={() => UpdateTodo(task.id, task.text)}>
                   Edit

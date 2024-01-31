@@ -44,7 +44,7 @@ function App() {
   function CompleteTodo(id) {
     setAllTasks((prevTasks) =>
       prevTasks.map((task) =>
-        task.id === id ? { ...task, text: editTaskText } : task
+        task.id === id ? { ...task, isComplete: !task.isComplete } : task
       )
     );
   }
