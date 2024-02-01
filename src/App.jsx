@@ -50,8 +50,10 @@ function App() {
   }
 
   return (
-    <>
-      <h1>Todo App</h1>
+    <div className="h-screen w-full flex justify-start items-center flex-col bg-gray-500 p-8">
+      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        Todo App
+      </h1>
       <AddTodoItem
         addTask={addTask}
         setAddTask={setAddTask}
@@ -67,7 +69,7 @@ function App() {
         SubmitEditedTodo={SubmitEditedTodo}
         CompleteTodo={CompleteTodo}
       />
-    </>
+    </div>
   );
 }
 
