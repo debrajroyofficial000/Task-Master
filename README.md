@@ -1,4 +1,4 @@
-# React Todo App
+# Task Master
 
 ## Introduction
 
@@ -22,13 +22,13 @@ Welcome to the Todo App project! This is a fully functional application built us
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/debrajroyofficial000/React-Todo-App.git
+git clone https://github.com/debrajroyofficial000/Task-Master.git
 ```
 
 2. Change into the project directory:
 
 ```bash
-cd React-Todo-App
+cd Task-Master
 ```
 
 3. Install dependencies:
